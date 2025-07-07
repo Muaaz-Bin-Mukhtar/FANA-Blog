@@ -1,7 +1,7 @@
 import React from 'react'
 import { Footer, FooterCopyright, FooterDivider, FooterIcon, FooterLink, FooterLinkGroup, FooterTitle } from 'flowbite-react';
 import { Link } from 'react-router-dom';
-import { BsFacebook, BsInstagram, BsTwitter, BsGithub } from 'react-icons/bs';
+import { BsInstagram, BsLinkedin, BsGithub } from 'react-icons/bs';
 
 export default function FooterCom() {
   return (
@@ -30,40 +30,33 @@ export default function FooterCom() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                2
-                            </FooterLink>
-                            <FooterLink 
-                                href="#"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                3
-                            </FooterLink>
+                                FANABlog
+                            </FooterLink>                            
                         </FooterLinkGroup>
                     </div>
                     <div>
                         <FooterTitle title='Follow Us' />
                         <FooterLinkGroup col>
                             <FooterLink 
-                                href="#"
+                                href="https://www.instagram.com/muaaz.bin.mukhtar/?next=%2F"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                1
+                                Instagram
                             </FooterLink>
                             <FooterLink 
-                                href="#"
+                                href="https://www.linkedin.com/in/muaaz-bin-mukhtar-b7b8142b7/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                2
+                                LinkedIn
                             </FooterLink>
                             <FooterLink 
-                                href="#"
+                                href="https://github.com/Muaaz-Bin-Mukhtar"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                3
+                                GitHub
                             </FooterLink>
                         </FooterLinkGroup>
                     </div>
@@ -75,21 +68,14 @@ export default function FooterCom() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                1
+                                Terms & Conditions
                             </FooterLink>
                             <FooterLink 
                                 href="#"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
-                                2
-                            </FooterLink>
-                            <FooterLink 
-                                href="#"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                3
+                                Privacy Policy
                             </FooterLink>
                         </FooterLinkGroup>                        
                     </div>
@@ -99,10 +85,9 @@ export default function FooterCom() {
             <div className='w-full sm:flex sm:items-center sm:justify-between'>
                 <FooterCopyright href='#' by='Fana Blog' year={new Date().getFullYear()} />
                 <div className='flex gap-6 mt-4 sm:justify-center'>
-                    <FooterIcon href='#' icon={BsFacebook} />
-                    <FooterIcon href='#' icon={BsInstagram} />
-                    <FooterIcon href='#' icon={BsTwitter} />
-                    <FooterIcon href='#' icon={BsGithub} />
+                    <FooterIcon href='https://www.instagram.com/muaaz.bin.mukhtar/?next=%2F' icon={BsInstagram} />
+                    <FooterIcon href='https://www.linkedin.com/in/muaaz-bin-mukhtar-b7b8142b7/' icon={BsLinkedin} />
+                    <FooterIcon href='https://github.com/Muaaz-Bin-Mukhtar' icon={BsGithub} />
                 </div>
             </div>            
         </div>
