@@ -17,11 +17,11 @@ export default function DashSidebar() {
         <Sidebar className='w-full md:w-56'>
             <SidebarItems>
                 <SidebarItemGroup>
-                    <Link to='/dashboard?tab=profile'>
-                        <SidebarItem active={tab === 'profile'} icon={HiUser} label={"User"} labelColor='dark'>
+                    {/* <Link to='/dashboard?tab=profile'> */}
+                        <SidebarItem href='/dashboard?tab=profile' active={tab === 'profile'} icon={HiUser} label={"User"} labelColor='dark'>
                             Profile
                         </SidebarItem>
-                    </Link>                    
+                    {/* </Link>                     */}
                     <SidebarItem icon={HiArrowSmRight} className='cursor-pointer'>
                         Sign Out
                     </SidebarItem>
